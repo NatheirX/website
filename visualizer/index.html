@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Visualizer</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/p5@1.2.0/lib/p5.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+    <main>
+        <div class="slidecontainer">
+            <input type="range" min="50" max="1000" value="500" class="slider" id="myRange">
+        </div>
+        <div class="slidecontainer">
+            <input type="range" min="1" max="100" value="100" class="slider" id="mySpeed">
+        </div>
+        <h2 class="steps">steps: <span id="stepstaken">0</span></h2>
+        <h2 class="swaps">swaps: <span id="swapstaken">0</span></h2>
+        <h2 class="time">time: <span id="timetaken">0</span><span> ms</span></h2>
+        <h2 class="size">Array Size: <span id="arraysize">0</span></h2>
+        <h2 class="speeder">Speed: <span id="speed">0</span></h2>
+
+        <div class="container">
+            <h1>Algorithm Visualizer</h1>
+            <div class="visualizer"></div>
+        </div>
+        <div class="button-container">
+            <button class="btn quicksort">Quick Sort</button>
+            <button class="btn bubblesort">Bubble Sort</button>
+            <button class="btn reset">reset</button>
+            <button class="btn selectionsort">Selection Sort</button>
+            <!-- <button class="btn mergesort">Merge Sort</button> -->
+            <button class="btn insertionSort">Insertion Sort</button>
+        </div>
+        <article class="about">
+            <article class="about-content">
+                <div class="content active" id="reset">
+                    <h4>Introduction :D</h4>
+                    <p class="text">This algorithm visualizer was made entirely using javascript, html, and css. I used
+                        the javascript library "p5.js" to create the visuals while writing the algorithms in normal
+                        javascript and implementing a pathway between the two. </p>
+                </div>
+                <div class="content" id="bubblesort">
+                    <h4>Bubble Sort</h4>
+                    <p class="text">"Bubble sort, sometimes referred to as sinking sort, is a simple sorting algorithm
+                        that repeatedly steps through the list, compares adjacent elements and swaps them if they are in
+                        the wrong order. The pass through the list is repeated until the list is sorted. The algorithm,
+                        which is a comparison sort, is named for the way smaller or larger elements "bubble" to the top
+                        of the list." -wikipedia
+                    </p>
+                </div>
+                <div class="content" id="quicksort">
+                    <h4>Quick Sort</h4>
+                    <p class="text">"Quicksort (sometimes called partition-exchange sort) is an efficient sorting
+                        algorithm. Developed by British computer scientist Tony Hoare in 1959 and published in
+                        1961, it is still a commonly used algorithm for sorting. When implemented well, it can be
+                        about two or three times faster than its main competitors, merge sort and heapsort" -wikipedia
+                    </p>
+                </div>
+                <div class="content" id="selectionsort">
+                    <h4>Selection Sort</h4>
+                    <p class="text">"In computer science, selection sort is an in-place comparison sorting algorithm. It
+                        has an O(n^2) time complexity, which makes it inefficient on large lists, and generally performs
+                        worse than the similar insertion sort. Selection sort is noted for its simplicity and has
+                        performance advantages over more complicated algorithms in certain situations, particularly
+                        where auxiliary memory is limited." -wikipedia</p>
+                </div>
+                <div class="content" id="insertionSort">
+                    <h4>Insertion Sort</h4>
+                    <p class="text">"Insertion sort is a simple sorting algorithm that builds the final sorted array (or
+                        list) one item at a time. It is much less efficient on large lists than more advanced algorithms
+                        such as quicksort, heapsort, or merge sort." -wikipedia</p>
+                </div>
+            </article>
+        </article>
+    </main>
+
+
+</body>
+<script type="text/javascript" src="app.js"></script>
+<script type="text/javascript" src="sketch.js"></script>
+<script type="text/javascript" src="selectionsort.js"></script>
+<script type="text/javascript" src="quicksort.js"></script>
+<script type="text/javascript" src="bubblesort.js"></script>
+<script type="text/javascript" src="insertionsort.js"></script>
+
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Jack</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <link rel="stylesheet" href="styles-blackjack.css">
+</head>
+
+<body>
+    <div class="dealer-cards"></div>
+    <div class="user-cards"></div>
+    <div class="deck"></div>
+    <h2 class="cards">52</h2>
+    <h2 class="balance">$ <span id="bal">10000</span></h2>
+    <main>
+        <div class="container">
+            <h1>Dealer</h1>
+        </div>
+        <span id="Dealer-value">0</span>
+        <div>
+            <h1 id="announcement"></h1>
+            <h1 class="bet">Current Bet: $<span id="money">100</span></h1>
+            <button class="btn bet-btn-up">Up</button>
+            <button class="btn bet-btn-down">Down</button>
+        </div>
+        <span id="value">0</span>
+        <div class="button-container">
+            <button class="btn stay">Stay</button>
+            <button class="btn hit">Hit</button>
+        </div>
+
+        <div class="container">
+            <h1>You</h1>
+        </div>
+        <div>
+            <h1 class="probability_busting">Probability of busting: <span id="prob">0</span><span>%</span></h1>
+            <h1 class="probability_winning">Probability of Winning if stay: <span id="proba">0</span><span>%</span></h1>
+        </div>
+        <script src="script-blackjack.js"></script>
+    </main>
+</body>
+
+</html>

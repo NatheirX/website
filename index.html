@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="parallax.min.js"></script>
+    <link rel="icon" href="images\favicon.png">
+    <!-- Font Awesome Icon - CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Mustafa Natheir | CS Student </title>
+
+</head>
+
+<body>
+
+    <ul class="mynav-full" style="width:175px; background-color:black">
+        <li>
+            <div class="container">
+                <h2 style=""><b href="#home" class="fontfam" style="color: white;">Mustafa Natheir</b></h2>
+                <span class="monospace sansserif" style="color: white;">Computer Science &amp; Statistics Student</span>
+            </div>
+        </li>
+        <hr class="solid">
+
+        <li><a class="" href="#home" style="background-color: white; color:black"><svg width="1em" height="1em"
+                    viewBox="0 0 16 16" class="bi bi-house-door" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M7.646 1.146a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5H9.5a.5.5 0 0 1-.5-.5v-4H7v4a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6zM2.5 7.707V14H6v-4a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v4h3.5V7.707L8 2.207l-5.5 5.5z" />
+                    <path fill-rule="evenodd" d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
+                </svg> Home</a></li>
+        <li><a href="#about" style="color: white;"><svg width="1em" height="1em" viewBox="0 0 16 16"
+                    class="bi bi-patch-question" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M7.002 11a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM8.05 9.6c.336 0 .504-.24.554-.627.04-.534.198-.815.847-1.26.673-.475 1.049-1.09 1.049-1.986 0-1.325-.92-2.227-2.262-2.227-1.02 0-1.792.492-2.1 1.29A1.71 1.71 0 0 0 6 5.48c0 .393.203.64.545.64.272 0 .455-.147.564-.51.158-.592.525-.915 1.074-.915.61 0 1.03.446 1.03 1.084 0 .563-.208.885-.822 1.325-.619.433-.926.914-.926 1.64v.111c0 .428.208.745.585.745z" />
+                    <path fill-rule="evenodd"
+                        d="M10.273 2.513l-.921-.944.715-.698.622.637.89-.011a2.89 2.89 0 0 1 2.924 2.924l-.01.89.636.622a2.89 2.89 0 0 1 0 4.134l-.637.622.011.89a2.89 2.89 0 0 1-2.924 2.924l-.89-.01-.622.636a2.89 2.89 0 0 1-4.134 0l-.622-.637-.89.011a2.89 2.89 0 0 1-2.924-2.924l.01-.89-.636-.622a2.89 2.89 0 0 1 0-4.134l.637-.622-.011-.89a2.89 2.89 0 0 1 2.924-2.924l.89.01.622-.636a2.89 2.89 0 0 1 4.134 0l-.715.698a1.89 1.89 0 0 0-2.704 0l-.92.944-1.32-.016a1.89 1.89 0 0 0-1.911 1.912l.016 1.318-.944.921a1.89 1.89 0 0 0 0 2.704l.944.92-.016 1.32a1.89 1.89 0 0 0 1.912 1.911l1.318-.016.921.944a1.89 1.89 0 0 0 2.704 0l.92-.944 1.32.016a1.89 1.89 0 0 0 1.911-1.912l-.016-1.318.944-.921a1.89 1.89 0 0 0 0-2.704l-.944-.92.016-1.32a1.89 1.89 0 0 0-1.912-1.911l-1.318.016z" />
+                </svg> About</a></li>
+
+        <!-- <li><a href="#Education"> <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-book-half"
+                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M8.5 2.687v9.746c.935-.53 2.12-.603 3.213-.493 1.18.12 2.37.461 3.287.811V2.828c-.885-.37-2.154-.769-3.388-.893-1.33-.134-2.458.063-3.112.752zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z" />
+                </svg> Education</a></li> -->
+        <li><a href="#Skills" style="color: white;"><svg width="1em" height="1em" viewBox="0 0 16 16"
+                    class="bi bi-brush" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M15.825.12a.5.5 0 0 1 .132.584c-1.53 3.43-4.743 8.17-7.095 10.64a6.067 6.067 0 0 1-2.373 1.534c-.018.227-.06.538-.16.868-.201.659-.667 1.479-1.708 1.74a8.117 8.117 0 0 1-3.078.132 3.658 3.658 0 0 1-.563-.135 1.382 1.382 0 0 1-.465-.247.714.714 0 0 1-.204-.288.622.622 0 0 1 .004-.443c.095-.245.316-.38.461-.452.393-.197.625-.453.867-.826.094-.144.184-.297.287-.472l.117-.198c.151-.255.326-.54.546-.848.528-.739 1.2-.925 1.746-.896.126.007.243.025.348.048.062-.172.142-.38.238-.608.261-.619.658-1.419 1.187-2.069 2.175-2.67 6.18-6.206 9.117-8.104a.5.5 0 0 1 .596.04zM4.705 11.912a1.23 1.23 0 0 0-.419-.1c-.247-.013-.574.05-.88.479a11.01 11.01 0 0 0-.5.777l-.104.177c-.107.181-.213.362-.32.528-.206.317-.438.61-.76.861a7.127 7.127 0 0 0 2.657-.12c.559-.139.843-.569.993-1.06a3.121 3.121 0 0 0 .126-.75l-.793-.792zm1.44.026c.12-.04.277-.1.458-.183a5.068 5.068 0 0 0 1.535-1.1c1.9-1.996 4.412-5.57 6.052-8.631-2.591 1.927-5.566 4.66-7.302 6.792-.442.543-.796 1.243-1.042 1.826a11.507 11.507 0 0 0-.276.721l.575.575zm-4.973 3.04l.007-.005a.031.031 0 0 1-.007.004zm3.582-3.043l.002.001h-.002z" />
+                </svg> Skills</a></li>
+        <li><a href="#Projects" style="color: white;"> <svg width="1em" height="1em" viewBox="0 0 16 16"
+                    class="bi bi-clipboard-data" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z" />
+                    <path fill-rule="evenodd"
+                        d="M9.5 1h-3a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z" />
+                    <path
+                        d="M4 11a1 1 0 1 1 2 0v1a1 1 0 1 1-2 0v-1zm6-4a1 1 0 1 1 2 0v5a1 1 0 1 1-2 0V7zM7 9a1 1 0 0 1 2 0v3a1 1 0 1 1-2 0V9z" />
+                </svg> Projects</a></li>
+        <li><a href="#Contact" style="color: white;"> <svg width="1em" height="1em" viewBox="0 0 16 16"
+                    class="bi bi-phone" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M11 1H5a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z" />
+                    <path fill-rule="evenodd" d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                </svg> Contacts</a></li>
+        <!-- <li><a style="color: white;" href=""
+                target="_blank"> <svg width="1em" height="1em" viewBox="0 0 16 16"
+                    class="bi bi-file-earmark-person-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M2 2a2 2 0 0 1 2-2h5.293A1 1 0 0 1 10 .293L13.707 4a1 1 0 0 1 .293.707V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm7.5 1.5v-2l3 3h-2a1 1 0 0 1-1-1zM11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm2 5.755S12 12 8 12s-5 1.755-5 1.755V14a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-.245z" />
+                </svg> Resume </a></li> -->
+    </ul>
+    <script type="text/javascript">
+        $('a').click(function () {
+            $('a').css('background-color', 'black');
+            $('a').css('color', 'white');
+            $('a.change').css('background-color', '')
+            $('a.change').css('color', '')
+            $(this).css('background-color', 'white')
+            $(this).css('color', 'black')
+        });
+    </script>
+    <nav class="pos-f-t">
+        <nav class="navbar navbar-dark bg-dark">
+            <h3>Mustafa Natheir</h3>
+            <h5>Computer Science & statistics</h5>
+        </nav>
+    </nav>
+    <div id="home">
+        <div class="notsmall" style="height:1000px">
+
+            <!-- <div class="parallax">
+                <div class="centered">
+                    <h2 class="monospace">Hello, Welcome To My Website :)</h2>
+                </div>
+            </div> -->
+
+            <div class="parallax-window notsmall" data-parallax="scroll" data-image-src="images/me.jpg"
+                data-position="0 -55">
+            </div>
+            <div class="centered">
+                <h2 class="monospace">Welcome To My Website </h2>
+            </div>
+        </div>
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script type="text/javascript">
+        mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }</script>
+    <div id="about">
+        <div class="notsmall" style="height:100%">
+            <h1 class="title">About</h1>
+            <div class="container">
+                <blockquote>Second year Computer Science and Statistics Student @ University of Toronto</blockquote>
+                <p> <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-circle-fill"
+                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-11.5.5a.5.5 0 0 1 0-1h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5z" />
+                    </svg> I am currently a second year Computer Science and Statistics student at the University of
+                    Toronto, while also pursuing a minor in mathematical sciences.</p>
+                <p> <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-circle-fill"
+                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-11.5.5a.5.5 0 0 1 0-1h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5z" />
+                    </svg> I am very passionate about both Computer Science and Statistics, ultimately choosing to
+                    persue them in
+                    University. I have experience in both front-end and back-end development, although I find back-end
+                    to be more
+                    enjoyable. I find the ability to be able to create ideas from scratch to be both wonderful and
+                    enjoyable,
+                    seeing my ideas flourish is the reason I plan on continuing on this path. </p>
+                <p> <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-circle-fill"
+                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-11.5.5a.5.5 0 0 1 0-1h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5z" />
+                    </svg> For the near future, I'm primarily interested in back-end roles as I believe that's where
+                    I'd find the
+                    greatest learning opportunity. I encourage you to <a href="#Contact" class="change"> reach out!</a>
+                    <!-- or check out my
+                    <a href=""
+                        target="_blank" class="change">resume</a>!</p></a> -->
+
+            </div>
+        </div>
+    </div>
+    <div id="Education">
+        <div class="notsmall" style="height:100%">
+            <h1>Education</h1>
+            <div class="container">
+                <blockquote>Stephen Lewis Secondary School</blockquote>
+                <p> <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-circle-fill"
+                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-11.5.5a.5.5 0 0 1 0-1h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5z" />
+                    </svg> Ontario Secondary School Diploma </p>
+                <p> <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-map-fill" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M16 .5a.5.5 0 0 0-.598-.49L10.5.99 5.598.01a.5.5 0 0 0-.196 0l-5 1A.5.5 0 0 0 0 1.5v14a.5.5 0 0 0 .598.49l4.902-.98 4.902.98a.502.502 0 0 0 .196 0l5-1A.5.5 0 0 0 16 14.5V.5zM5 14.09V1.11l.5-.1.5.1v12.98l-.402-.08a.498.498 0 0 0-.196 0L5 14.09zm5 .8V1.91l.402.08a.5.5 0 0 0 .196 0L11 1.91v12.98l-.5.1-.5-.1z" />
+                    </svg> <a target="_blank" class="change"
+                        href="https://www.google.ca/maps/place/Stephen+Lewis+Secondary+School/@43.5571042,-79.7455528,17z/data=!3m1!4b1!4m5!3m4!1s0x882b69ff06eae6ed:0x251eb31b6f233ce!8m2!3d43.5571003!4d-79.7433641">3675
+                        Thomas
+                        St, Mississauga, ON </a>
+                </p>
+
+                <p><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-clock-fill" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z" />
+                    </svg> Attended: September 2015 - June 2019</p>
+
+                <p>
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-award-fill" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M8 0l1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z" />
+                        <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z" />
+                    </svg> Award: Ontario Scholar
+                </p>
+                <blockquote> University of Toronto</blockquote>
+                <p> <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-circle-fill"
+                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-11.5.5a.5.5 0 0 1 0-1h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5z" />
+                    </svg> Bachelor of Science: Computer Science and Statistics </p>
+                <p> <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-map-fill" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M16 .5a.5.5 0 0 0-.598-.49L10.5.99 5.598.01a.5.5 0 0 0-.196 0l-5 1A.5.5 0 0 0 0 1.5v14a.5.5 0 0 0 .598.49l4.902-.98 4.902.98a.502.502 0 0 0 .196 0l5-1A.5.5 0 0 0 16 14.5V.5zM5 14.09V1.11l.5-.1.5.1v12.98l-.402-.08a.498.498 0 0 0-.196 0L5 14.09zm5 .8V1.91l.402.08a.5.5 0 0 0 .196 0L11 1.91v12.98l-.5.1-.5-.1z" />
+                    </svg> <a target="_blank" class="change"
+                        href="https://www.google.com/maps/place/University+of+Toronto+Mississauga/@43.5497747,-79.6650753,17z/data=!4m8!1m2!2m1!1suniversity+of+toronto+mississauga+maps!3m4!1s0x882b43e3135af203:0x713c168866b9f492!8m2!3d43.5487269!4d-79.6629276">
+                        3359 Mississauga Rd, Mississauga, ON</a>
+                </p>
+
+                <p><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-clock-fill" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z" />
+                    </svg> Attending: September 2019 - April 2023</p>
+
+            </div>
+        </div>
+    </div>
+    <div id="Skills">
+        <div class="notsmall" style="height:45%">
+            <h1>Skills</h1>
+            <div class="container">
+                <div class="card;">
+                    <div class="card-body">
+                        <h5 class="card-title">HTML/CSS</h5>
+                        <p class="card-text">Making a simple and manageable front end using HTML and CSS is one of
+                            life's simple pleasures.</p>
+                        <a href="#Projects-HTML" class="btn btn-primary">HTML projects</a>
+                    </div>
+                </div>
+                <div class="card;">
+                    <div class="card-body">
+                        <h5 class="card-title">Python</h5>
+                        <p class="card-text">Python was the first programming language that I have learned, with over 2
+                            years of experience with it.</p>
+                        <a href="#Projects-python" class="btn btn-primary">Python Projects</a>
+                    </div>
+                </div>
+                <div class="card;">
+                    <div class="card-body">
+                        <h5 class="card-title">Javascript</h5>
+                        <p class="card-text">Javascript is without a doubt a favourite among my coding arsenal. Using it
+                            for minor tweaks to improve the flow of websites and/or using the libraries p5.js or
+                            react.js.</p>
+                        <a href="#Projects-javascript" class=" btn  btn-primary">Javascript Projects</a>
+                    </div>
+                </div>
+                <div class="card;">
+                    <div class="card-body">
+                        <h5 class="card-title">Bootstrap</h5>
+                        <p class="card-text">I am very familiar with bootstrap and their CSS framework, using it to
+                            build many of my projects, including, but not limited to, Noor dental and my personal
+                            website. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="Projects">
+        <div class="notsmall" style="height:100%px">
+            <h1>Projects</h1>
+            <div class="container" id="Projects-HTML">
+                <h1 class="small">HTML/CSS</h1>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="card">
+
+                            <div class="card-body">
+                                <h5 class="card-title">Personal Website</h5>
+                                <p class="card-text">My personal website built using HTML/CSS/Javascript, with the help
+                                    of bootstrap.</p>
+                                <a href="#home" class="btn btn-primary">Go to my website :)</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Noor Dental</h5>
+                                <p class="card-text">Website built for the dental clinics Noor Dental. This was done
+                                    using Html/CSS.</p>
+                                <a href="https://noordental.com/" target="_blank" class="btn btn-primary">Go to their
+                                    website</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <h1 class="small" id="Projects-python">Python</h1>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="card">
+
+                            <div class="card-body">
+                                <h5 class="card-title">Stock Market Trading Bot</h5>
+                                <p class="card-text">A personal Stock Market trading bot that can be configured to do
+                                    any sort of trading strategy. Mainly used to train and test AI trading strategies
+                                    using past stock data. This project helped develop my understanding of working with
+                                    APIs.</p>
+                                <a href="https://github.com/NatheirX/stocks" target="_blank"
+                                    class="btn btn-primary">github link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Discord Bot</h5>
+                                <p class="card-text">An MMORPG discord bot, originally created for personal use but
+                                    expanded to over 20 servers. Has a working combat system, equipment system, and user
+                                    database. The library used to make this bot was discord.py, the database that was
+                                    used was SQLAlchemy </p>
+                                <a href="https://discord.com/api/oauth2/authorize?client_id=749708469552021596&permissions=8&scope=bot"
+                                    target="_blank" class="btn btn-primary">Invite to server</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">File TreeMap</h5>
+                                <p class="card-text">Using the tree data type, I created a version of a file storage
+                                    treemap
+                                    to visualize your folders. This was also expanded to visualize a population treemap
+                                    aswell. </p>
+                                <a href="#" class="btn btn-primary disabled">GitHub Treemap</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h1 class="small" id="Projects-javascript">Javascript</h1>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="card">
+
+                            <div class="card-body">
+                                <h5 class="card-title">Black Jack</h5>
+                                <p class="card-text">A black jack game where you play against the dealer, dealer wins if
+                                    draw. I have also created a probability calculator, which automatically calculates
+                                    the probability
+                                    of winning if staying and the probability of busting if drawing. </p>
+                                <a href="https://github.com/NatheirX/blackjack" target="_blank"
+                                    class="btn btn-primary">github link</a>
+                                <a href="website\blackjack\index.html" target="_blank"
+                                    class="btn btn-primary">blackjack :)</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card">
+
+                            <div class="card-body">
+                                <h5 class="card-title">Sorting Algorithm Visualizer</h5>
+                                <p class="card-text">A sorting algorithm visualizer that includes and visualizes the
+                                    steps in the algorithms quick sort, bubble sort, selection sort, and insertion sort.
+                                    This was made using javascript and the javascript library "p5.js"
+                                </p>
+                                <a href="https://github.com/NatheirX/Algorithm-Visualizer" target="_blank"
+                                    class="btn btn-primary">github link</a>
+                                <a href="\website\visualizer\index.html" target="_blank"
+                                    class="btn btn-primary">visualizer
+                                    :)</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div id="Contact">
+            <div class="notsmall" style="height:45%">
+                <h1>See What Im Up To :)</h1>
+                <div style="padding: 15px"></div>
+                <div class="container">
+                    <p><a class="btn-floating btn-large black" href="https://www.linkedin.com/in/natheir/"
+                            target="_blank" data-position="top" data-tooltip="View Mustafa on LinkedIn"><i
+                                class="fa fa-linkedin"></i></a><a class="change" alt=""
+                            href="https://www.linkedin.com/in/natheir/" target="_blank">
+                            linkedin.com/in/natheir</a>
+                    </p>
+                    <p><a class="btn-floating btn-large black" href="https://github.com/NatheirX" target="_blank"
+                            data-position="top" data-tooltip="View Mustafa on GitHub"><i class="fa fa-github"></i></a><a
+                            class="change" alt="" href="https://github.com/NatheirX" target="_blank">
+                            github.com/NatheirX</a></p>
+                    <p><a class="btn-floating btn-large black" href="mailto:MustafaNatheir1@gmail.com" target="_blank"
+                            data-position="top" data-tooltip="Email Mustafa"><i class="fa fa-envelope"></i></a><a alt=""
+                            class="change" href="mailto:MustafaNatheir1@gmail.com" target="_blank">
+                            Mustafanatheir1@gmail.com</a></p>
+
+                    <p><a class="btn-floating btn-large black" href="https://devpost.com/NatheirX" target="_blank"
+                            data-position="top" data-tooltip="Email Mustafa">D</a><a class="change" alt=""
+                            href="https://devpost.com/NatheirX" target="_blank">
+                            https://devpost.com/NatheirX</a></p>
+                </div>
+            </div>
+
+
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <!-- Materialize - Compiled and minified JavaScript-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+</body>
+
+</html>
