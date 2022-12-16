@@ -352,7 +352,7 @@ function remove_all_dealer_cards() {
 // adds card picture url
 function add_card_picture(card) {
   card.front = String(
-    "website/" + String(card.number) + String(card.type[0]) + ".png"
+    "images/" + String(card.number) + String(card.type[0]) + ".png"
   );
 }
 // reveals dealer cards
